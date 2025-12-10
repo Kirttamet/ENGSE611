@@ -1,33 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เว็บไซต์แรกของฉัน</title>
+    <title>แนะนำตัวเอง</title>
+
+    <!-- CSS ไว้เชื่อมทีหลัง -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-        <h1>แนะนำตัวเอง</h1>
-    <strong><p>ชื่อ กฤตเมธ สินธุใส</p><em>รหัสนักศึกษา 68543210062-4</em><br>อายุ 20 ปี</br>
-    </center>
-    </strong>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <ol>
-        <li>เตรียมไฟล์ HTML</li>
-        <li>เขียนโครงสร้างพื้นฐาน</li>
-        <li>แสดงผลในบราวเซอร์</li>
-    </ol>
-    <dl>
-        <dt>HTML</dt>
-        <dd>ภาษาสำหรับโครงสร้างเว็บ</dd>
 
-        <dt>CSS</dt>
-        <dd>ภาษาสำหรับตกแต่งเว็บ</dd>
-    </dl>
-    <p><a href="Hyperlink.html">ไปที่หน้า Hyperlink</a></p>
+    <!-- ========== HEADER ========== -->
+    <header>
+        <h1>ชื่อ - นามสกุล กฤตเมธ สินธุใส</h1>
+        <nav>
+            <a href="#about">เกี่ยวกับฉัน</a>
+            <a href="#skills">ทักษะ</a>
+            <a href="#contact">ติดต่อ</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== ABOUT ME ========== -->
+        <section id="about">
+            <h2>ประวัติส่วนตัว</h2>
+            <p>สวัสดีครับ จบการวิทยาลัยเทคโนโลยีโปลิเทคนิคลานนา เชียงใหม่ อายุ 20 ปี </p>
+
+            <!-- รูปจริงหรือ placeholder -->
+            <img src="image/p1.jpeg" alt="รูปภาพประจำตัว">
+        </section>
+
+        <!-- ========== SUBTITLE SET 2 ========== -->
+        <section id="skills">
+            <h2>ทักษะของฉัน</h2>
+
+            <!-- รายการ List -->
+            <ul>
+                <li>เขียนโปรแกรมเบื้องต้น</li>
+                <li>ออกแบบเว็บไซต์ HTML</li>
+                <li>ตัดต่อภาพพื้นฐาน</li>
+            </ul>
+        </section>
+
+        <!-- ========== TABLE ========== -->
+        <section>
+            <h2>ข้อมูลติดต่อเพิ่มเติม</h2>
+
+            <table border="1" cellpadding="10">
+                <tr>
+                    <th colspan="2">ช่องทางการติดต่อ</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">อีเมล</td>
+                    <td>example@email.com</td>
+                </tr>
+                <tr>
+                    <td>สำรอง: mymail@gmail.com</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- ========== FORM ========== -->
+        <section id="contact">
+            <h2>ฟอร์มติดต่อกลับ</h2>
+
+            <form>
+                <label>ชื่อ:</label>
+                <input type="text" placeholder="กรอกชื่อของคุณ"><br><br>
+
+                <label>อีเมล:</label>
+                <input type="email" placeholder="example@email.com"><br><br>
+
+                <label>ข้อความถึงฉัน:</label>
+                <textarea placeholder="พิมพ์ข้อความที่ต้องการส่ง"></textarea><br><br>
+
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <p>ติดตามฉันบนโซเชียล</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+    <!-- HTML COMMENT #1 -->
+    <!-- เว็บไซต์นี้สร้างเพื่อส่งงานตามโจทย์ HTML5 --ุ>
+
+    <!-- HTML COMMENT #2 -->
+    <!-- นักศึกษา: (ใส่ชื่อของคุณ) -->
+
 </body>
 </html>
