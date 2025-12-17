@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Lab 1</title>
+</head>
+<body>
+
+    <h2>สมัครสมาชิก</h2>
+    <p>ง่ายและเร็ว <span style="float:right;">X</span></p>
+
+    <form action="/submit_form" method="post">
+
+        <label>ชื่อ</label><br>
+        <input type="text" name="fname"><br><br>
+
+        <label>นามสกุล</label><br>
+        <input type="text" name="lname"><br><br>
+
+        <label>เบอร์โทรศัพท์หรืออีเมล</label><br>
+        <input type="text" name="contact"><br><br>
+
+    
+        <label>รหัสผ่านใหม่</label><br>
+        <input type="password" name="password"><br><br>
+
+
+        <label>วันเกิด</label><br>
+        <select name="day">
+            <option>วัน</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+
+        <select name="month">
+            <option>เดือน</option>
+            <option>ม.ค.</option>
+            <option>ก.พ.</option>
+            <option>มี.ค.</option>
+        </select>
+
+        <select name="year">
+            <option>ปี</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+        </select>
+
+        <br><br>
+
+        <label>เพศ</label><br>
+        <input type="radio" name="gender" value="female"> หญิง
+        <input type="radio" name="gender" value="male"> ชาย
+
+        <br><br>
+        <p>
+            เมื่อคลิกสมัคร แสดงว่าคุณยอมรับขอกำหนด นโยบายข้อมูล และ นโยบายคุกกี้ของเรา คุณอาจได้รับข้อความแจ้งเตือนทาง SMS จากเรา และสมารถเลือกไม่รับได้ในภายหลัง
+        </p>
+
+        <button type="submit">สมัคร</button>
+
+    </form>
+
+</body>
+</html>
