@@ -4,63 +4,88 @@
     <meta charset="UTF-8">
     <title>Exam Lab 1</title>
 </head>
-<body>
-
-    <h2>สมัครสมาชิก</h2>
-    <p>ง่ายและเร็ว <span style="float:right;">X</span></p>
-
-    <form action="/submit_form" method="post">
-
-        <label>ชื่อ</label><br>
-        <input type="text" name="fname"><br><br>
-
-        <label>นามสกุล</label><br>
-        <input type="text" name="lname"><br><br>
-
-        <label>เบอร์โทรศัพท์หรืออีเมล</label><br>
-        <input type="text" name="contact"><br><br>
-
-    
-        <label>รหัสผ่านใหม่</label><br>
-        <input type="password" name="password"><br><br>
-
-
-        <label>วันเกิด</label><br>
-        <select name="day">
-            <option>วัน</option>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-        </select>
-
-        <select name="month">
-            <option>เดือน</option>
-            <option>ม.ค.</option>
-            <option>ก.พ.</option>
-            <option>มี.ค.</option>
-        </select>
-
-        <select name="year">
-            <option>ปี</option>
-            <option>2000</option>
-            <option>2001</option>
-            <option>2002</option>
-        </select>
-
+<body bgcolor="#DEDDDC">
+    <center>
+    <table border="0" cellpadding="5" cellspacing="0" width="400" height="600" bgcolor="#FFFFFF">
+        <tr>
+            <td colspan="3">
+                <h2>สมัครสมาชิก</h2>
+                <font face="Tahoma" size="2" color="#606770">ง่ายและเร็ว </font>
+            </td>
+            <td>
+                x
+            </td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder=" ชื่อ" ></td>
+            <td><input type="text" name="lname" placeholder="นามสกุล"></td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="text" name="contact" placeholder="เบอร์โทรศัพท์หรืออีเมล" size="45%" ></td>
+        </tr> 
+        <tr>
+            <td colspan="4"><input type="password" name="password" placeholder="รหัสผ่านใหม่" size="45%" ></td>
+        </tr>
+        <tr>
+            <td>
+                วันเกิด
+            </td>
+        </tr>
+        <tr>
+            <td cellspacing="2">
+                <select name="day">
+                        <option>วัน</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                </select>
+                 <select name="month">
+                        <option>เดือน</option>
+                        <option>ม.ค.</option>
+                        <option>ก.พ.</option>
+                        <option>มี.ค.</option>
+                </select>
+                <select name="year">
+                        <option>ปี</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                </select>
+            </td>
+            <td cellspacing="2">
+               
+        </tr>
+        <tr >
+        <td align="left"><label>เพศ</label></td>
+        </tr>
+        <tr >
+        <td>
+            <table width="200px" height="50" border="1" bgcolor="#FFFFFF">
+                <tr >
+                    <td  width="800px" >
+                        ชาย<input type="radio" name="gender" value="male" size="45%"> 
+                    </td>
+                    <td  colspan="2">
+                        หญิง <input type="radio" name="gender" value="female"> 
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
         <br><br>
-
-        <label>เพศ</label><br>
-        <input type="radio" name="gender" value="female"> หญิง
-        <input type="radio" name="gender" value="male"> ชาย
-
-        <br><br>
-        <p>
-            เมื่อคลิกสมัคร แสดงว่าคุณยอมรับขอกำหนด นโยบายข้อมูล และ นโยบายคุกกี้ของเรา คุณอาจได้รับข้อความแจ้งเตือนทาง SMS จากเรา และสมารถเลือกไม่รับได้ในภายหลัง
-        </p>
-
-        <button type="submit">สมัคร</button>
-
-    </form>
-
+        <tr>
+        <td colspan="2">
+            <font face="Tahoma" size="2" color="#606770">
+                เมื่อคลิกสมัคร แสดงว่าคุณยอมรับขอกำหนด นโยบายข้อมูล และ นโยบายคุกกี้ของเรา คุณอาจได้รับข้อความแจ้งเตือนทาง SMS จากเรา และสมารถเลือกไม่รับได้ในภายหลัง
+            </font>
+        </td>
+        </tr>
+        <tr bgcolor="green" align="center" width="400" height="50">
+            <td colspan="4">
+                <button type="submit">สมัคร</button>
+            </td>
+        </tr>
+    </table>
+    </center>
 </body>
 </html>
