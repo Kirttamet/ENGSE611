@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Font-size: Parent → Child (em)</title>
+
+    <style>
+        
+        .parent {
+            font-size: 20px;
+            background-color: #e6f2ff;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+
+        .child {
+            font-size: 1.5em;   
+            color: blue;
+        }
+
+
+        .child-2 {
+            font-size: 1.2em;   
+            background-color: #fff;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .grandchild {
+            font-size: 1.2em;   
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Font-size: Parent → Child (em)</h1>
+
+    <div class="parent">
+        Parent (font-size = 20px)
+
+        <p class="child">
+            Child (1.5em = 30px)
+        </p>
+
+        <div class="child-2">
+            Child 2 (1.2em = 24px)
+
+            <p class="grandchild">
+                Grandchild (1.2em ของ Child 2 = 28.8px)
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

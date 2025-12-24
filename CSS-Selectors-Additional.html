@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>CSS Selectors Additional</title>
+<style>
+p:hover { color: red; }
+input[type="text"] { background-color: lightgreen; }
+div p { color: blue; }
+div > span { color: green; }
+h1 + p { color: purple; }
+h2 ~ p { color: brown; }
+li:nth-child(odd) { background-color: #ddd; }
+</style>
+</head>
+<body>
+
+<h1>หัวข้อ</h1>
+<p>ย่อหน้าหลัง h1</p>
+
+<h2>หัวข้อย่อย</h2>
+<p>ย่อหน้า 1</p>
+<p>ย่อหน้า 2</p>
+
+<div>
+<p>อยู่ใน div</p>
+<span>ลูกตรง</span>
+</div>
+
+<input type="text">
+<input type="password">
+
+<ul>
+<li>รายการ 1</li>
+<li>รายการ 2</li>
+<li>รายการ 3</li>
+<li>รายการ 4</li>
+</ul>
+
+</body>
+</html>
