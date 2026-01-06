@@ -1,0 +1,85 @@
+/* ===== Element Selector ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ===== ID Selector ===== */
+#main-header {
+    background-color: #2b59c3;
+    padding: 20px;
+}
+
+/* ===== Header & Nav ===== */
+header {
+    background-color: #2b59c3;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* ===== Section ===== */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ===== Class Selector ===== */
+.highlight {
+    color: #2b59c3;
+    font-weight: bold;
+}
+
+/* ===== Image ===== */
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* ===== Table ===== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: #2b59c3;
+    color: white;
+}
+
+/* ===== Form ===== */
+input, textarea {
+    width: 90%;
+    padding: 8px;
+}
+
+button {
+    background-color: #2b59c3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
