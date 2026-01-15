@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9eef3; /* สีพื้นหลังทั้งหน้า */
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* กล่องพื้นหลังสำหรับการ์ด */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #dfe6ed; /* พื้นหลังอ่อนด้านหลังการ์ด */
+    padding: 40px;
+    border-radius: 12px;
+}
+
+/* Card */
+.card {
+    background-color: #ffffff; /* พื้นหลังการ์ด */
+    width: 260px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin-top: 0;
+}

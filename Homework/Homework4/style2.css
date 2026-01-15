@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    min-height: 400px;
+}
+
+/* เมนู */
+.menu {
+    background-color: #2f86eb;
+    color: white;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+/* เนื้อหา */
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Responsive: หน้าจอเล็กกว่า 600px */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
